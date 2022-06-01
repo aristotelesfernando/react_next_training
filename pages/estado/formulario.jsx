@@ -13,7 +13,7 @@ export default function formulario() {
             display: 'flex',
             flexDirection: 'column'
         }}>
-            <span>{valor}</span>
+            <h2>{valor}</h2>
             <input type="text" placeholder="Digite aqui..." value={valor} onChange={e => setValor(e.target.value)}/>
             <button onClick={alterarInput}>Alterar</button>
         </div>
